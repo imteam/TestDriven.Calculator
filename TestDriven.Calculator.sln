@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDriven.Calculator", "TestDriven.Calculator\TestDriven.Calculator.csproj", "{F0B542FB-EA74-451B-8ADE-25F27C976C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDriven.Calculator.Core", "TestDriven.Calculator.Core\TestDriven.Calculator.Core.csproj", "{13163654-D7F1-4DE1-A9C9-348D0F8768A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{65303FF4-2691-4BA2-901C-979CA651B537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3057FB53-1F85-4B98-B06A-88F986981577}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TestDriven.Calculator.vsmdi = TestDriven.Calculator.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TestDriven.Calculator.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B542FB-EA74-451B-8ADE-25F27C976C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B542FB-EA74-451B-8ADE-25F27C976C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B542FB-EA74-451B-8ADE-25F27C976C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B542FB-EA74-451B-8ADE-25F27C976C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13163654-D7F1-4DE1-A9C9-348D0F8768A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13163654-D7F1-4DE1-A9C9-348D0F8768A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13163654-D7F1-4DE1-A9C9-348D0F8768A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13163654-D7F1-4DE1-A9C9-348D0F8768A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65303FF4-2691-4BA2-901C-979CA651B537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65303FF4-2691-4BA2-901C-979CA651B537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65303FF4-2691-4BA2-901C-979CA651B537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65303FF4-2691-4BA2-901C-979CA651B537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

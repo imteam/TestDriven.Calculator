@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a50f456a-c378-496d-8465-c24ec7b0dc32" name="occ@LTOCC02 2012-06-28 19:55:35" runUser="TRIVADIS\occ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="724721d2-f82d-4ec4-a0cf-60fd156ab3b3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="occ_LTOCC02 2012-06-28 19_55_35">
+      <DeploymentItem filename="C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\bin\Debug\TestDriven.Calculator.dll" />
+      <DeploymentItem filename="C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator.Core\bin\Debug\TestDriven.Calculator.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-28T19:55:35.2264189+02:00" queuing="2012-06-28T19:55:35.9894626+02:00" start="2012-06-28T19:55:36.1054692+02:00" finish="2012-06-28T19:55:36.8265104+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClearTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b">
+      <Execution id="9034d1df-4abd-487b-905a-0b1d85467cc4" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearTest" />
+    </UnitTest>
+    <UnitTest name="CalculatorSubtractionTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="f5f57668-1cfb-44c3-8a20-29d5bb10f004">
+      <Execution id="e5d039f0-059a-4287-93fb-a42b634e0dbb" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorSubtractionTest" />
+    </UnitTest>
+    <UnitTest name="CalculatorAdditionTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="93aeff83-719d-1073-3b95-44aefb56c5ce">
+      <Execution id="fc47c435-ff4e-4271-9c60-adbfa4b3348b" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorAdditionTest" />
+    </UnitTest>
+    <UnitTest name="CalculatorConstructorTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="91666d06-9d44-96d1-460c-6e40fbf20583">
+      <Execution id="ee513ce8-d8cd-4e91-8667-52abda258436" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b" executionId="9034d1df-4abd-487b-905a-0b1d85467cc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91666d06-9d44-96d1-460c-6e40fbf20583" executionId="ee513ce8-d8cd-4e91-8667-52abda258436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93aeff83-719d-1073-3b95-44aefb56c5ce" executionId="fc47c435-ff4e-4271-9c60-adbfa4b3348b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5f57668-1cfb-44c3-8a20-29d5bb10f004" executionId="e5d039f0-059a-4287-93fb-a42b634e0dbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9034d1df-4abd-487b-905a-0b1d85467cc4" testId="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b" testName="ClearTest" computerName="LTOCC02" duration="00:00:00.0337766" startTime="2012-06-28T19:55:36.1544720+02:00" endTime="2012-06-28T19:55:36.6234988+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9034d1df-4abd-487b-905a-0b1d85467cc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee513ce8-d8cd-4e91-8667-52abda258436" testId="91666d06-9d44-96d1-460c-6e40fbf20583" testName="CalculatorConstructorTest" computerName="LTOCC02" duration="00:00:00.0002157" startTime="2012-06-28T19:55:36.6244989+02:00" endTime="2012-06-28T19:55:36.6274991+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee513ce8-d8cd-4e91-8667-52abda258436">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc47c435-ff4e-4271-9c60-adbfa4b3348b" testId="93aeff83-719d-1073-3b95-44aefb56c5ce" testName="CalculatorAdditionTest" computerName="LTOCC02" duration="00:00:00.1349327" startTime="2012-06-28T19:55:36.6284991+02:00" endTime="2012-06-28T19:55:36.7705072+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc47c435-ff4e-4271-9c60-adbfa4b3348b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;4711&gt;. 0 + 1 muss 1 ergeben</Message>
+          <StackTrace>   at TestProject1.CalculatorTest.CalculatorAdditionTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e5d039f0-059a-4287-93fb-a42b634e0dbb" testId="f5f57668-1cfb-44c3-8a20-29d5bb10f004" testName="CalculatorSubtractionTest" computerName="LTOCC02" duration="00:00:00.0185118" startTime="2012-06-28T19:55:36.7745075+02:00" endTime="2012-06-28T19:55:36.7975088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5d039f0-059a-4287-93fb-a42b634e0dbb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;4711&gt;. 0 - 1 muss -1 ergeben</Message>
+          <StackTrace>   at TestProject1.CalculatorTest.CalculatorSubtractionTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

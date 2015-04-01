@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ae292cde-f1b6-4fe6-9172-a333a7c1db7e" name="occ@LTOCC02 2012-06-19 14:34:40" runUser="TRIVADIS\occ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="724721d2-f82d-4ec4-a0cf-60fd156ab3b3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="occ_LTOCC02 2012-06-19 14_34_40">
+      <DeploymentItem filename="C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\bin\Debug\TestDriven.Calculator.dll" />
+      <DeploymentItem filename="C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator.Core\bin\Debug\TestDriven.Calculator.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-19T14:34:40.7737041+02:00" queuing="2012-06-19T14:34:44.6847041+02:00" start="2012-06-19T14:34:44.9947041+02:00" finish="2012-06-19T14:34:46.1447041+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="4" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClearTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b">
+      <Execution id="4ae17420-e0c8-4e6a-9d92-093eaa6c416c" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearTest" />
+    </UnitTest>
+    <UnitTest name="SubtractTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="6a143709-b652-7c83-67c9-bc73a9c8380c">
+      <Execution id="62df5da8-60fa-4a3e-b0c4-708161f22fde" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubtractTest" />
+    </UnitTest>
+    <UnitTest name="AddTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="ba9ab207-80c7-1cd7-b08c-8ab018f9efb8">
+      <Execution id="be5eef46-b193-41bc-8122-4b160f0b7b66" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+    <UnitTest name="CalculatorConstructorTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="91666d06-9d44-96d1-460c-6e40fbf20583">
+      <Execution id="c7d7d3fe-011c-49e6-844b-fbfc5f7ccc4d" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TotalTest" storage="c:\_hfu\asp\_demos\270-testing\testdriven.calculator\testproject1\bin\debug\testproject1.dll" id="6720214d-e7ef-2b47-dbad-eafd004de056">
+      <Execution id="998d9341-864c-4055-80fa-2bca91500764" />
+      <TestMethod codeBase="C:/_HFU/ASP/_Demos/270-Testing/TestDriven.Calculator/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CalculatorTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b" executionId="4ae17420-e0c8-4e6a-9d92-093eaa6c416c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6720214d-e7ef-2b47-dbad-eafd004de056" executionId="998d9341-864c-4055-80fa-2bca91500764" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a143709-b652-7c83-67c9-bc73a9c8380c" executionId="62df5da8-60fa-4a3e-b0c4-708161f22fde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91666d06-9d44-96d1-460c-6e40fbf20583" executionId="c7d7d3fe-011c-49e6-844b-fbfc5f7ccc4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba9ab207-80c7-1cd7-b08c-8ab018f9efb8" executionId="be5eef46-b193-41bc-8122-4b160f0b7b66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4ae17420-e0c8-4e6a-9d92-093eaa6c416c" testId="4af2ec59-2c8b-14a2-6ed8-28fe73c0773b" testName="ClearTest" computerName="LTOCC02" duration="00:00:00.2533065" startTime="2012-06-19T14:34:45.1327041+02:00" endTime="2012-06-19T14:34:46.0187041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ae17420-e0c8-4e6a-9d92-093eaa6c416c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.CalculatorTest.ClearTest threw exception: 
+System.Exception: The method or operation is not implemented.</Message>
+          <StackTrace>    at TestDriven.Calculator.Calculator.Clear() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\Calculator.cs:line 29
+   at TestProject1.CalculatorTest.ClearTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="998d9341-864c-4055-80fa-2bca91500764" testId="6720214d-e7ef-2b47-dbad-eafd004de056" testName="TotalTest" computerName="LTOCC02" duration="00:00:00.0011509" startTime="2012-06-19T14:34:46.0197041+02:00" endTime="2012-06-19T14:34:46.0247041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="998d9341-864c-4055-80fa-2bca91500764">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.CalculatorTest.TotalTest threw exception: 
+System.Exception: The method or operation is not implemented.</Message>
+          <StackTrace>    at TestDriven.Calculator.Calculator.get_Total() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\Calculator.cs:line 14
+   at TestProject1.CalculatorTest.TotalTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62df5da8-60fa-4a3e-b0c4-708161f22fde" testId="6a143709-b652-7c83-67c9-bc73a9c8380c" testName="SubtractTest" computerName="LTOCC02" duration="00:00:00.0011544" startTime="2012-06-19T14:34:46.0257041+02:00" endTime="2012-06-19T14:34:46.0287041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62df5da8-60fa-4a3e-b0c4-708161f22fde">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.CalculatorTest.SubtractTest threw exception: 
+System.Exception: The method or operation is not implemented.</Message>
+          <StackTrace>    at TestDriven.Calculator.Calculator.Subtract(Double value) in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\Calculator.cs:line 24
+   at TestProject1.CalculatorTest.SubtractTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7d7d3fe-011c-49e6-844b-fbfc5f7ccc4d" testId="91666d06-9d44-96d1-460c-6e40fbf20583" testName="CalculatorConstructorTest" computerName="LTOCC02" duration="00:00:00.0266988" startTime="2012-06-19T14:34:46.0307041+02:00" endTime="2012-06-19T14:34:46.0597041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7d7d3fe-011c-49e6-844b-fbfc5f7ccc4d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestProject1.CalculatorTest.CalculatorConstructorTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be5eef46-b193-41bc-8122-4b160f0b7b66" testId="ba9ab207-80c7-1cd7-b08c-8ab018f9efb8" testName="AddTest" computerName="LTOCC02" duration="00:00:00.0015088" startTime="2012-06-19T14:34:46.0617041+02:00" endTime="2012-06-19T14:34:46.0657041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be5eef46-b193-41bc-8122-4b160f0b7b66">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.CalculatorTest.AddTest threw exception: 
+System.Exception: The method or operation is not implemented.</Message>
+          <StackTrace>    at TestDriven.Calculator.Calculator.Add(Double value) in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestDriven.Calculator\Calculator.cs:line 19
+   at TestProject1.CalculatorTest.AddTest() in C:\_HFU\ASP\_Demos\270-Testing\TestDriven.Calculator\TestProject1\CalculatorTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
